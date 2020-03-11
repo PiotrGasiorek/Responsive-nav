@@ -10,20 +10,36 @@
     <!-- Nav css -->
     <link rel="stylesheet" href="./css/nav.css">
     <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class='header'>
-
+        <nav class='nav container'>
+            <div class="nav__left">
+                <img class='nav__logo' src="./imgs/logo.svg" alt="logo">
+            </div>
+            <div class="nav__right">
+                <div class="nav__links">
+                    <a href="#" class="nav__link link">About</a>
+                    <a href="#" class="nav__link link">Gallery</a>
+                    <a href="#" class="nav__link link">Contact</a>
+                </div>
+            </div>
+        </nav>
+        <div class="jumbotron container">
+            <h1 class='jumbotron__title title title--huge'>Welcome to the website with responsive navigation</h1>
+        </div>
     </header>
     <main>
         <section class="extraSection">
-
+            <h2 class='extraSection__title title title--big'>Some more content</h2>
         </section>
     </main>
     <footer class="footer">
-        
+        <p class='footer__text'><span class="text--grey">Created by</span> <a href="#" class='footer__link link'>Piotr Gąsiorek</a></p>
     </footer>
+    <div class="darkOverlay"></div>
+    <div class="sideNav"></div>
     <!-- Main js -->
     <script src='./main.js'></script>
 </body>
