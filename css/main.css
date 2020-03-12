@@ -2,6 +2,7 @@
     --color-primary: #333333;
     --color-secondary: #727275;
     --color-tertiary: #ffffff;
+    --color-quaternary: #22FAAC;
 }
 
 body, html{
@@ -55,7 +56,7 @@ body, html{
     height: 4px;
     margin: 5px 0 0;
     transition: .3s;
-    background: #22FAAC;
+    background: var(--color-quaternary);
 }
 
 .link:hover:after{
@@ -63,7 +64,7 @@ body, html{
 }
 
 .link:focus{
-    color: #22FAAC;
+    color: var(--color-quaternary);
     outline: none;
 }
 
